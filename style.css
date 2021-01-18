@@ -1,0 +1,96 @@
+.main {
+	list-style-type: none;
+	overflow: hidden;
+	background-color:#7277e6;
+	padding-left: 0;
+	margin-top: 0;
+	box-shadow: 2px;
+	z-index: 1;
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*Changes the links on the top nav page to white*/
+
+.main a {
+	color: white;
+}
+
+.main a:visited {
+	color: white;
+}
+
+/*Changes color of links at top when you move the mouse over it*/
+
+.main a:hover {
+	color: white;
+	background-color: #8084ff;
+	transform: scale(1.2);
+}
+
+a:link {
+	display: block;
+	text-align: center;
+	padding: 14px 60px;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding: 10px 15px 20px 10px;
+}
+
+figcaption {
+	font-style: italic;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+.resources {
+	padding-top: 100px;
+}
+
+#wordbox {
+    /*opacity: 0;*/
+    margin: 30px auto 0;
+    display: block;
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    background: #fff;
+    border-radius: 6px;
+    color: #black;
+    transition: 1s linear;
+}
+
+#button {
+  background: #7277e6;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    padding: 1em 2em;
+    cursor: pointer;
+    margin: 0 auto 60px;
+    display: block;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+}
