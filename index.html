@@ -4,7 +4,7 @@
 <!--
 
 title = Molly's Sims
-Name = Molly Cameron
+Name = Molly Singmaster
 Date = 12/15/2019
 
 -->
@@ -12,24 +12,22 @@ Date = 12/15/2019
 <!--Main menu at the top of the page-->
 
 <head>
-  <ul class="main">
-    <a href="index.html">Home</a>
-    <a href="TheSims.html">The Sims</a>
-    <a href="TheSims2.html">The Sims 2</a>
-    <a href="TheSims3.html">The Sims 3</a>
-    <a href="TheSims4.html">The Sims 4</a>
-  </ul>
+  <div class="main-button">
+    <button><a href="index.html">Home</a></button>
+    <button><a href="TheSims.html">The Sims</a></button>
+    <button><a href="TheSims2.html">The Sims 2</a></button>
+    <button><a href="TheSims3.html">The Sims 3</a></button>
+    <button><a href="TheSims4.html">The Sims 4</a></button>
+  </div>
   <!--link to my style sheet-->
   <link href="resources/style.css" type="text/css" rel="stylesheet">
   <!--link to my JavaScript file-->
   <script src="resources/JavaScript.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
   <h1>The Sims Series</h1>
-  <h3>By: Molly Cameron</h3>
   </head>
 
-<!--This is where the clock is going to go showing the current time-->
-
-  <body onload="startTime()">
   <div id="txt"></div>
 
   <img src="resources/Images/The_Sims_All.jpg" alt="The Sims Through the Years">
@@ -43,12 +41,16 @@ Date = 12/15/2019
 <footer>
     <h2 class="resources">Resources</h2>
 
-    <p><a href="https://www.ea.com/games/the-sims" target="_blank">EA's Official site</a></p>
-    <p><a href="https://en.wikipedia.org/wiki/The_Sims" target="_blank">The Sims Wikipedia Page</a></p>
-    <p><a href="https://www.thesims3.com/" target="_blank">The Sims 3 Official Site</a></p>
-    <p><a href="https://www.origin.com/usa/en-us/store/the-sims/the-sims-4" target="_blank">Marketplace for The Sims</a></p>
-    <p><a href="https://www.carls-sims-4-guide.com/" target="_blank">Fan page for The Sims information</a></p>
+    <div class="resource-links"></div>
+      <p><a href="https://www.ea.com/games/the-sims" target="_blank">EA's Official site</a></p>
+      <p><a href="https://en.wikipedia.org/wiki/The_Sims" target="_blank">The Sims Wikipedia Page</a></p>
+      <p><a href="https://www.thesims3.com/" target="_blank">The Sims 3 Official Site</a></p>
+      <p><a href="https://www.origin.com/usa/en-us/store/the-sims/the-sims-4" target="_blank">Marketplace for The Sims</a></p>
+      <p><a href="https://www.carls-sims-4-guide.com/" target="_blank">Fan page for The Sims information</a></p>
+    </div>
 
-</footer>
+    <footer>
+      <h3>&copy; Molly Singmaster</h3>
+    </footer>
 </body>
 </html>
